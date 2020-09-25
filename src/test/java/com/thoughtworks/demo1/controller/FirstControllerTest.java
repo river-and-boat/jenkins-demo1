@@ -18,7 +18,7 @@ class FirstControllerTest {
 
     @Test
     public void should_return_hello_world() throws Exception {
-        mockMvc.perform(get("/hello"))
+        mockMvc.perform(get("/hello error"))
                 .andExpect(status().isOk());
     }
 }
